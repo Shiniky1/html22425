@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 5 aplicatia 2</title>
+    <style>
+        div img{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            
+
+        }
+        @media screen and (max-width:360px){
+                h1{
+                    color: red;
+                }
+                .desk, .tab, .lap{
+                    display: none;
+                }
+        }
+        @media screen and (min-width:361px) and (max-width:768px){
+            h1{
+                color:blue
+            }
+            .desk, .tab, .mob{
+                    display: none;
+                }
+
+        }
+        @media screen and (min-width:769px) and (max-width:1240px){
+            h1{
+                color: green;
+            }
+            .desk, .mob, .lap{
+                    display: none;
+                }
+            
+        }
+        @media screen and (min-width:1241px) {
+            h1{
+                color: violet;}
+                .mob, .tab, .lap{
+                    display: none;
+                }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="desk">
+        <h1>Suntem pe desktop</h1>
+        <img src="./imagini_ap2/download (1).jpeg" alt="desk">
+    </div>
+    <div class="lap">
+        <h1>Suntem pe laptop</h1>
+        <img src="./imagini_ap2/download (2).jpeg" alt="lap">
+    </div>
+    <div class="tab">
+        <h1>Suntem pe tableta</h1>
+        <img src="./imagini_ap2/download.jpeg" alt="tab">
+    </div>
+    <div class="mob">
+        <h1>Suntem pe mobile</h1>
+        <img src="./imagini_ap2/lake-blue-moonlight-moon-wallpaper-thumb.jpg" alt="mob">
+    </div>
+    
+</body>
+</html>
