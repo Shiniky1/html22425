@@ -80,6 +80,22 @@ nav ul li a{
     display: inline;
     margin: 20px;
 }
+/*Start contact*/
+#contact div{
+    margin: 25px;
+} 
 
-   
-  
+#contact label{
+    width: 100px;
+    display:inline-block;
+}
+#contact select{
+    width: 200px;
+}
+#contact fieldset{
+display: inline-block;
+width: 400px;
+border-color: brown;
+}
+
+ /*Stop contact*/ 
